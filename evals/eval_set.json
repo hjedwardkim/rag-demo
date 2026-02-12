@@ -1,0 +1,227 @@
+[
+  {
+    "query_id": "Q-001",
+    "query": "How do I fix error E-4012 in the EU region?",
+    "expected_doc_ids": [
+      "KB-0028"
+    ],
+    "expected_filters": {
+      "region": "EU",
+      "error_codes": "E-4012"
+    },
+    "category": "exact_match"
+  },
+  {
+    "query_id": "Q-002",
+    "query": "How do I fix error E-1001 in the US region?",
+    "expected_doc_ids": [
+      "KB-0002"
+    ],
+    "expected_filters": {
+      "region": "US",
+      "error_codes": "E-1001"
+    },
+    "category": "exact_match"
+  },
+  {
+    "query_id": "Q-003",
+    "query": "How do I fix error E-2003 in the APAC region?",
+    "expected_doc_ids": [
+      "KB-0009"
+    ],
+    "expected_filters": {
+      "region": "APAC",
+      "error_codes": "E-2003"
+    },
+    "category": "exact_match"
+  },
+  {
+    "query_id": "Q-004",
+    "query": "How do I fix error E-3002 in the EU region?",
+    "expected_doc_ids": [
+      "KB-0013"
+    ],
+    "expected_filters": {
+      "region": "EU",
+      "error_codes": "E-3002"
+    },
+    "category": "exact_match"
+  },
+  {
+    "query_id": "Q-005",
+    "query": "How do I fix error E-4005 in the US region?",
+    "expected_doc_ids": [
+      "KB-0023"
+    ],
+    "expected_filters": {
+      "region": "US",
+      "error_codes": "E-4005"
+    },
+    "category": "exact_match"
+  },
+  {
+    "query_id": "Q-006",
+    "query": "What are the authentication procedures for EU on v3.0?",
+    "expected_doc_ids": [
+      "KB-0001"
+    ],
+    "expected_filters": {
+      "region": "EU",
+      "product_version": "v3.0",
+      "deprecated": false
+    },
+    "category": "scoped"
+  },
+  {
+    "query_id": "Q-007",
+    "query": "What are the billing procedures for US on v2.0?",
+    "expected_doc_ids": [
+      "KB-0011"
+    ],
+    "expected_filters": {
+      "region": "US",
+      "product_version": "v2.0",
+      "deprecated": false
+    },
+    "category": "scoped"
+  },
+  {
+    "query_id": "Q-008",
+    "query": "What are the deployment procedures for APAC on v3.0?",
+    "expected_doc_ids": [
+      "KB-0015"
+    ],
+    "expected_filters": {
+      "region": "APAC",
+      "product_version": "v3.0",
+      "deprecated": false
+    },
+    "category": "scoped"
+  },
+  {
+    "query_id": "Q-009",
+    "query": "What are the networking procedures for EU on v2.0?",
+    "expected_doc_ids": [
+      "KB-0025"
+    ],
+    "expected_filters": {
+      "region": "EU",
+      "product_version": "v2.0",
+      "deprecated": false
+    },
+    "category": "scoped"
+  },
+  {
+    "query_id": "Q-010",
+    "query": "Give me a complete guide on sso setup.",
+    "expected_doc_ids": [
+      "KB-0098",
+      "KB-0099",
+      "KB-0100"
+    ],
+    "expected_filters": {},
+    "category": "multi_doc"
+  },
+  {
+    "query_id": "Q-011",
+    "query": "Give me a complete guide on vpn configuration.",
+    "expected_doc_ids": [
+      "KB-0113",
+      "KB-0114",
+      "KB-0115"
+    ],
+    "expected_filters": {},
+    "category": "multi_doc"
+  },
+  {
+    "query_id": "Q-012",
+    "query": "Give me a complete guide on invoice management.",
+    "expected_doc_ids": [
+      "KB-0103",
+      "KB-0104",
+      "KB-0105"
+    ],
+    "expected_filters": {},
+    "category": "multi_doc"
+  },
+  {
+    "query_id": "Q-013",
+    "query": "Give me a complete guide on container deployment.",
+    "expected_doc_ids": [
+      "KB-0108",
+      "KB-0109",
+      "KB-0110"
+    ],
+    "expected_filters": {},
+    "category": "multi_doc"
+  },
+  {
+    "query_id": "Q-014",
+    "query": "What are the best practices for deployment?",
+    "expected_doc_ids": [
+      "KB-0013",
+      "KB-0014",
+      "KB-0015"
+    ],
+    "expected_filters": {},
+    "category": "broad"
+  },
+  {
+    "query_id": "Q-015",
+    "query": "How does billing work?",
+    "expected_doc_ids": [
+      "KB-0007",
+      "KB-0008",
+      "KB-0009"
+    ],
+    "expected_filters": {},
+    "category": "broad"
+  },
+  {
+    "query_id": "Q-016",
+    "query": "Tell me about networking configuration.",
+    "expected_doc_ids": [
+      "KB-0019",
+      "KB-0020",
+      "KB-0021"
+    ],
+    "expected_filters": {},
+    "category": "broad"
+  },
+  {
+    "query_id": "Q-017",
+    "query": "How do I handle authentication issues in EU? I need current documentation.",
+    "expected_doc_ids": [
+      "KB-0001"
+    ],
+    "expected_filters": {
+      "region": "EU",
+      "deprecated": false
+    },
+    "category": "deprecated_trap"
+  },
+  {
+    "query_id": "Q-018",
+    "query": "How do I handle billing issues in US? I need current documentation.",
+    "expected_doc_ids": [
+      "KB-0008"
+    ],
+    "expected_filters": {
+      "region": "US",
+      "deprecated": false
+    },
+    "category": "deprecated_trap"
+  },
+  {
+    "query_id": "Q-019",
+    "query": "How do I handle deployment issues in APAC? I need current documentation.",
+    "expected_doc_ids": [
+      "KB-0015"
+    ],
+    "expected_filters": {
+      "region": "APAC",
+      "deprecated": false
+    },
+    "category": "deprecated_trap"
+  }
+]
